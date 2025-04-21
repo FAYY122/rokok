@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f5e7d0;
+  color: #111;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #d92c2c;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 1rem;
+  animation: fadeIn 1s ease-in;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu-btn {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.menu-btn:hover {
+  transform: scale(1.05);
+}
+
+.about {
+  padding: 2rem 1rem;
+  background: #fff5eb;
+  text-align: center;
+}
+
+.discover-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.discover-btn:hover {
+  background: #d92c2c;
+}
+
+.footer {
+  background: #111;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer .social-links a,
+.footer .links a {
+  color: #f5e7d0;
+  margin: 0.3rem;
+  display: block;
+  text-decoration: none;
+}
+
+.footer .social-links,
+.footer .links {
+  margin: 1rem 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
